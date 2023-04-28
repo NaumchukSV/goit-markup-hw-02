@@ -1,0 +1,25 @@
+:root{
+    --main-font-family: 'Roboto',sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --primary-text-color:#2E2F42;
+    --secondary-text-color:#434455;
+    --accent-color: #404BBF;
+}
+
+body{
+    font-family: var(--main-font-family);
+    color:var(--secondary-text-color)
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
