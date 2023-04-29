@@ -13,6 +13,7 @@ body{
     font-family: var(--main-font-family);
     color:var(--primary-text-color);
     letter-spacing: var(--letter-spacing);
+    background-color: #FFFFFF;
 }
 
 .list {
