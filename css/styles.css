@@ -64,6 +64,12 @@ button {
     color: var(--secondary-text-color);
 }
 
+.link:hover,
+.link:focus{
+    color: var(--accent-color);
+}
+
+
 /* main */
 .hero{
     background-color: var(--primary-text-color);
@@ -128,4 +134,33 @@ button {
     font-size: var(--font-size-text);
     line-height: var(--line-height);
     color: #F4F4FD;
+}
+
+/* portfolio */
+.projects-filter-btn{
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--line-height);
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.projects-filter-btn:hover,
+.projects-filter-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.project-category{
+    font-size: 16px;
+    line-height: var(--line-height);
+    color: var(--secondary-text-color);
 }
