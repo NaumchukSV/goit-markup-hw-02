@@ -107,7 +107,7 @@ font-weight: 400;
 }
 
 /* section-team */
-.team-list-title{
+.team-list-name{
     font-weight: 500;
         font-size: 20px;
         line-height: 24px;
@@ -115,7 +115,7 @@ font-weight: 400;
         letter-spacing: 0.02em;
 }
 
-.team-list-text{
+.team-list-position{
     font-weight: 400;
         font-size: 16px;
         line-height: 24px;
