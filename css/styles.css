@@ -3,8 +3,11 @@
     --secondary-font-family: 'Raleway', sans-serif;
     --primary-text-color:#434455;
     --secondary-text-color:#2E2F42;
+    --third-text-color: #F4F4FD;
     --accent-color: #404BBF;
     --logo-color:#4D5AE5;
+    --white-color: #FFFFFF;
+    --btn-color:#4D5AE5;
     --line-height:1.5;
     --font-size-text:16px;
     --letter-spacing: 0.02em;
@@ -13,7 +16,7 @@
 body{
     font-family: var(--main-font-family);
     color:var(--primary-text-color);
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
 }
 
 .list {
@@ -43,7 +46,7 @@ button {
 
 
 .logo-studio-theme-dark{
-    color: #F4F4FD;;
+    color: var(--third-text-color);
 }
 
 .logo-studio-theme-light{
@@ -65,8 +68,12 @@ button {
     letter-spacing: var(--letter-spacing);
 }
 
-.link:hover,
-.link:focus{
+.menu-link:hover,
+.menu-link:focus,
+.contact-email:hover,
+.contact-email:focus,
+.contact-tel:hover,
+.contact-tel:focus{
     color: var(--accent-color);
 }
 
@@ -80,17 +87,17 @@ button {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white-color);
     letter-spacing: var(--letter-spacing);
 }
 .modal-open-btn{
-    background-color: #4D5AE5;
+    background-color: var(--btn-color);
     font-weight: 500;
     font-size: var(--font-size-text);
     line-height: var(--line-height);
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus{
@@ -124,11 +131,11 @@ button {
 
 /* section-team */
 .team{
-    background-color: #F4F4FD;;
+    background-color: var(--third-text-color);
 }
 
 .team-list-item{
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
 }
 .team-list-name{
     font-weight: 500;
@@ -153,24 +160,24 @@ button {
 .footer-text{
     font-size: var(--font-size-text);
     line-height: var(--line-height);
-    color: #F4F4FD;
+    color: var(--third-text-color);
 }
 
 /* portfolio */
 .projects-filter-btn{
-    background-color: #F4F4FD;
+    background-color: var(--third-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: var(--line-height);
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--btn-color);
 }
 
 .projects-filter-btn:hover,
 .projects-filter-btn:focus {
     background-color: var(--accent-color);
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .project-title {
