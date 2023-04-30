@@ -1,9 +1,10 @@
 :root{
     --main-font-family: 'Roboto',sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
-    --primary-text-color:#2E2F42;
-    --secondary-text-color:#434455;
+    --primary-text-color:#434455;
+    --secondary-text-color:#2E2F42;
     --accent-color: #404BBF;
+    --logo-color:#4D5AE5;
     --line-height:1.5;
     --font-size-text:16px;
     --letter-spacing: 0.02em;
@@ -12,7 +13,6 @@
 body{
     font-family: var(--main-font-family);
     color:var(--primary-text-color);
-    letter-spacing: var(--letter-spacing);
     background-color: #FFFFFF;
 }
 
@@ -38,17 +38,16 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--logo-color);
 }
 
-.logo-web {
-    color: #4D5AE5;
-}
+
 .logo-studio-theme-dark{
     color: #F4F4FD;;
 }
 
 .logo-studio-theme-light{
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 
 .menu-link{
@@ -57,12 +56,10 @@ button {
     line-height: var(--line-height);
 }
 
-.contact-email,
-.contact-tel {
+.contacts{
     font-style: normal;
     font-size: var(--font-size-text);
     line-height: var(--line-height);
-    color: var(--secondary-text-color);
 }
 
 .link:hover,
@@ -81,6 +78,7 @@ button {
     line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
+    letter-spacing: var(--letter-spacing);
 }
 .modal-open-btn{
     background-color: #4D5AE5;
@@ -91,13 +89,20 @@ button {
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+.modal-open-btn:hover,
+.modal-open-btn:focus{
+    background-color: var(--accent-color);
+}
+
 
 .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    color: var(--secondary-text-color);
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: var(--letter-spacing);
 }
 
 /* section-advantages */
@@ -105,31 +110,40 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--secondary-text-color);
 }
 .advantages-list-text{
     font-size: var(--font-size-text);
     line-height: var(--line-height);
-    color: var(--secondary-text-color)
 }
 
 /* section-team */
+.team{
+    background-color: #F4F4FD;;
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
+}
 .team-list-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--secondary-text-color);
     text-align: center;
+    letter-spacing: var(--letter-spacing);
 }
 
 .team-list-position{
     font-size: var(--font-size-text);
     line-height: var(--line-height);
     text-align: center;
-    color: var(--secondary-text-color);
+    letter-spacing: var(--letter-spacing);
 }
 
 /* footer */
 .footer{
-    background-color: var(--primary-text-color);
+    background-color: var(--secondary-text-color);
 }
 .footer-text{
     font-size: var(--font-size-text);
@@ -158,10 +172,12 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--secondary-text-color);
+    letter-spacing: var(--letter-spacing);
 }
 
 .project-category{
     font-size: 16px;
     line-height: var(--line-height);
-    color: var(--secondary-text-color);
+    letter-spacing: var(--letter-spacing);
 }
