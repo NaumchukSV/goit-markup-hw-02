@@ -70,10 +70,8 @@ button {
 
 .menu-link:hover,
 .menu-link:focus,
-.contact-email:hover,
-.contact-email:focus,
-.contact-tel:hover,
-.contact-tel:focus{
+.contact-link:hover,
+.contact-link:focus{
     color: var(--accent-color);
 }
 
