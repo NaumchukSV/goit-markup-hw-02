@@ -54,12 +54,15 @@ button {
     font-weight: 500;
     font-size: var(--font-size-text);
     line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+    color: var(--secondary-text-color);
 }
 
 .contacts{
     font-style: normal;
     font-size: var(--font-size-text);
     line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
 }
 
 .link:hover,
@@ -70,7 +73,7 @@ button {
 
 /* main */
 .hero{
-    background-color: var(--primary-text-color);
+    background-color: var(--secondary-text-color);
 }
 .main-title{
     font-weight: 700;
@@ -111,10 +114,12 @@ button {
     font-size: 20px;
     line-height: 1.2;
     color: var(--secondary-text-color);
+    letter-spacing: var(--letter-spacing);
 }
 .advantages-list-text{
     font-size: var(--font-size-text);
     line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
 }
 
 /* section-team */
